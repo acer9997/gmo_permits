@@ -137,16 +137,16 @@
             // Build treemap graphic
             function build_graphic(tm_data){
                 // reorganize json data to work with graphic
-                gmo_data.name = 'articles';
+                gmo_data.name = 'Articles';
                 gmo_data.children = [];
 
                 _.each(tm_data, function (value, key){
                     var i = Object.keys(tm_data).indexOf(key);
                     gmo_data.children.push( {'name': key, 'children': []} );
-                    phenotypes = _.groupBy(value, 'Phenotype');
+                    article_types = _.groupBy(value, 'Article');
 
-                    _.each(phenotypes, function(val, kee){
-                        var ii = Object.keys(phenotypes).indexOf(kee);
+                    _.each(article_types, function(val, kee){
+                        var ii = Object.keys(article_types).indexOf(kee);
                         gmo_data.children[i].children.push( {'name': kee} );
                         var tt = [];
 
@@ -176,7 +176,7 @@
                 gmo_data = gmo_data[0];
                 gmo_data.name = "Articles";
 
-//                console.log(JSON.stringify(gmo_data));
+                console.log(JSON.stringify(gmo_data));
 
                 // create the graphic with d3
                 var w = 1120,
