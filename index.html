@@ -14,9 +14,7 @@
     <script src="//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.js"></script>
     <!-- Style Sheets -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.css" charset="utf-8">
     <link rel="stylesheet" type="text/css" href="http://datatables.net/release-datatables/extensions/ColVis/css/dataTables.colVis.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/responsive/1.0.6/css/dataTables.responsive.css">
     <link rel="stylesheet" type="text/css" href="https://www.datatables.net/release-datatables/extensions/TableTools/css/dataTables.tableTools.css">
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.css">
     <style>
@@ -65,12 +63,6 @@
         }
         .dataTables_wrapper .dataTables_length {
             margin-top: 5px;
-        }
-        table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc {
-            background-image: none;
-        }
-        .dataTables_filter {
-            clear: right;
         }
     </style>
 </head>
@@ -183,6 +175,8 @@
                         "sSwfPath": "copy_csv_xls_pdf.swf"
                     }
                 } );
+
+                $('table').addClass('table table-striped');
             }
 
             // Build treemap graphic
