@@ -15,7 +15,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"NptII / polyphenol oxidase",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Non-browning"
       },
       {  
@@ -33,7 +33,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"dicamba mono-oxygenase/Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Dicamba Tolerant / Glufosinate Tolerant"
       },
       {  
@@ -51,7 +51,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Dicamba mono-oxygenase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Dicamba Tolerant"
       },
       {  
@@ -69,7 +69,7 @@
          "Status":"Approve",
          "CBI":"",
          "Genotypes":"",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Low Acrylamide Potential / PQ-Reduced Black Spot Bruise"
       },
       {  
@@ -105,7 +105,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Aryloxyalkanoate dioxygenase / PAT / EPSPS",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"2 4-D / Glyphosate and Glufosinate Tolerant"
       },
       {  
@@ -123,7 +123,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Aryloxyalkanoate dioxygenase / PAT",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"2 4-D tolerant / HT-Glufosinate tolerant"
       },
       {  
@@ -141,7 +141,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Aryloxyalkanoate dioxygenase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"2 4-D tolerant / HT-ACCase-inhibitor tolerant"
       },
       {  
@@ -159,7 +159,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"p-hydroxyphenlylpyruvate dioxygenase / Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"HPPD Tolerant / Glufosinate Tolerant"
       },
       {  
@@ -177,7 +177,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Cry1Ac / Cry1F / Phosphinothricin acetyl transferase",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Insect Resistant / HT-Glufosinate Tolerant"
       },
       {  
@@ -195,7 +195,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Acetohydroxy synthase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Imidazolinone Tolerant"
       },
       {  
@@ -213,7 +213,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"BBX32",
-         "Phenotype":"OO",
+         "Phenotype":"Other",
          "Phenotype Description":"Increased Yield"
       },
       {  
@@ -231,7 +231,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"EPSPS",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate Tolerant"
       },
       {  
@@ -249,7 +249,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"EPSPS",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate Tolerant"
       },
       {  
@@ -267,7 +267,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"EPSPS",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Tissue-selective Glyphosate Tolerant"
       },
       {  
@@ -285,7 +285,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"4-hydroxyphenylpyruvate dioxygenase / EPSPS",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate / HT-Isoxaflutole Tolerant"
       },
       {  
@@ -303,7 +303,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"gat4621",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate Tolerant"
       },
       {  
@@ -321,7 +321,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Cry1F / Cry34Ab1 /Cry35Ab1 / PAT",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glufosinate Tolerant / IR - Lepidopteran and Corn Rootworm Resistant"
       },
       {  
@@ -339,7 +339,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"EPSPS",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"glyphosate tolerant"
       },
       {  
@@ -357,7 +357,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"eCry3.1Ab / Phosphomannose isomerase",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Corn Rootworm Resistant"
       },
       {  
@@ -375,7 +375,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"RNAi Silencing - Asparagine synthetase-1 / Polyphenol oxidase / phosphorylase-L (PhL) / starch associated (R1) gene silencing",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Low Acrylamide Potential and Reduced Black Spot Bruise"
       },
       {  
@@ -393,7 +393,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Cry1Ab / Phosphinothrin acetyltransferase",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Lepidopteran Resistant / HT-Glufosinate Tolerant"
       },
       {  
@@ -411,7 +411,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Agrobacterium-EPSPS",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -429,7 +429,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"delta-6-desaturase / delta-15-desaturase",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Altered Fatty Acid Profile"
       },
       {  
@@ -447,7 +447,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"Oxalate oxidase / Hygromycin phosphotransferase",
-         "Phenotype":"FR",
+         "Phenotype":"Fungal Resistance",
          "Phenotype Description":"Sclerotinia blight resistant"
       },
       {  
@@ -465,7 +465,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Cold Shock Protein B",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Drought tolerance"
       },
       {  
@@ -483,7 +483,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Acyl-ACP thioesterase / Delta-12 desaturase / EPSPS",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Improved Fatty Acid Profile / HT-Glyphosate"
       },
       {  
@@ -501,7 +501,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"cry1Ab / cry2Ae",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glufosinate Tolerant/IR-Lepidopteran Resistant"
       },
       {  
@@ -519,7 +519,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Cry1Ac",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Lepidopteran Resistant"
       },
       {  
@@ -537,7 +537,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Torenia hybrida-Anthocyanin 5-Acyltransferase/Viola tricolor-Flavonoid 3 ' 5 ' Hydroxylase",
-         "Phenotype":"OO",
+         "Phenotype":"Other",
          "Phenotype Description":"Altered flower color"
       },
       {  
@@ -555,7 +555,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Bt-Cry1Ab",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Lepidopteran resistant"
       },
       {  
@@ -573,7 +573,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Male sterility / Amylase / DsRed 2",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Fertility restored / Male Sterile / Visual Marker"
       },
       {  
@@ -591,7 +591,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Thermococcales-Amylase (thermostable) / E. coli-Phosphomannose isomerase(SM)",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Thermostable alpha-amylase produced"
       },
       {  
@@ -609,7 +609,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Agrobacterium-EPSPS",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -627,7 +627,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"CBF2 / Barnase / NPTII (SM)",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Freeze-tolerant/AP-Fertility Altered"
       },
       {  
@@ -645,7 +645,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Omega-6 desaturase / als gene(SM)",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"High Oleic Acid"
       },
       {  
@@ -663,7 +663,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Bacillus thuringiensis-Vip3Aa20 / E.coli-manA(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Lepidopteran resistance"
       },
       {  
@@ -681,7 +681,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Bacillus lichenformis-gat4621 / Zea mays-zm-hra",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"- Glyphosate tolerant / HT-Imidazolinone tolerant"
       },
       {  
@@ -699,7 +699,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"VR",
+         "Phenotype":"Virus Resistance",
          "Phenotype Description":"PRSV resistant"
       },
       {  
@@ -717,7 +717,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"EPSPS/2mEPSPS 06-298-01p",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -735,7 +735,7 @@
          "Status":"Withdrawn",
          "CBI":"CBI",
          "Genotypes":"CBI-Flavonoid 3'-5' Hydroxylase / Petunia-Dihydroflavonol Reductase / Tobacco-Acetohydroxyacid Synthase",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Altered Flower Color"
       },
       {  
@@ -753,7 +753,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Gat4601 /Gm-hra",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant / HT-Acetolactate synthase tolerant"
       },
       {  
@@ -771,7 +771,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -789,7 +789,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"(SM)",
-         "Phenotype":"VR",
+         "Phenotype":"Virus Resistance",
          "Phenotype Description":"PPV resistant"
       },
       {  
@@ -807,7 +807,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Bt-CryIIIA / E. coli-Phosphomannose isomerase(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Western corn rootworn resistant"
       },
       {  
@@ -825,7 +825,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Streptomyces hygroscopicus-Phosphinothricin acetyltransferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant"
       },
       {  
@@ -843,7 +843,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Corynebacterium glutamicum-Dihydrodipicolinate synthase",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Lysine level increased"
       },
       {  
@@ -861,7 +861,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Agrobacterium-Cry3Bb1 / Bt-EPSPS",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Coleopteran resistant"
       },
       {  
@@ -879,7 +879,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Bt strain PS149B1-Cry34Ab1 / Bt strain PS149B1-Cry35Ab1 / Strep. viridochromogenes-Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant / IR-Lepidopteran resistant"
       },
       {  
@@ -897,7 +897,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Hygromycin phosphotransferase(SM) / Bt-vip3A(a)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Lepidopteran resistant"
       },
       {  
@@ -915,7 +915,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"(SM)",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -933,7 +933,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Bta-Cry1F / Strep. viridochromogenes-Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant / IR-Lepidopteran resistant"
       },
       {  
@@ -951,7 +951,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Bta-CryIA(c) / Phosphinothricin acetyl transferase(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Lepidopteran resistant"
       },
       {  
@@ -969,7 +969,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Bta-Cry1F / Phosphinothricin acetyl transferase(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Lepidopteran resistant"
       },
       {  
@@ -987,7 +987,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -1005,7 +1005,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -1023,7 +1023,7 @@
          "Status":"Withdrawn",
          "CBI":"CBI",
          "Genotypes":"",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -1041,7 +1041,7 @@
          "Status":"Withdrawn",
          "CBI":"CBI",
          "Genotypes":"",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -1059,7 +1059,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant"
       },
       {  
@@ -1077,7 +1077,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Agrobacterium-EPSPS / Agrobacterium-Glyphosate oxidoreductase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -1095,7 +1095,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"NptII(SM) / Strep. viridochromogenes-Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant"
       },
       {  
@@ -1113,7 +1113,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Bacillus amyloquifaciens-Barnase / Bacillus amyloquifaciens-Barstar / NptII(SM) / Strep. hygroscopicus-Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant / OO-Fertility restored / OO-Male sterile"
       },
       {  
@@ -1131,7 +1131,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"B-glucuronidase(SM) / Bt kurstaki-Cry2Ab",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Lepidopteran resistant"
       },
       {  
@@ -1149,7 +1149,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Bt kumamotoensis-Cry3Bb1 / NptII(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Coleopteran resistant"
       },
       {  
@@ -1167,7 +1167,7 @@
          "Status":"Withdrawn",
          "CBI":"CBI",
          "Genotypes":"",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -1185,7 +1185,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"NptII(SM) / Tobacco-Quinolinate phosphoribosyl transferase antisense",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Nicotine levels reduced"
       },
       {  
@@ -1203,7 +1203,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Lepidopteran resistant"
       },
       {  
@@ -1221,7 +1221,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Bta-Cry1F / Strep. viridochromogenes-Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant / IR-Lepidopteran resistant"
       },
       {  
@@ -1239,7 +1239,7 @@
          "Status":"Withdrawn",
          "CBI":"CBI",
          "Genotypes":"Bt kumanotoensis-Cry3Bb1 / NptII(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Coleopteran resistant"
       },
       {  
@@ -1257,7 +1257,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Agrobacterium-EPSPS",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -1275,7 +1275,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Btt-CryIIIA / EPSPS(SM) / PLRV-ORF 1 and 2",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Colorado potato beetle resistant / VR-PLRV resistant"
       },
       {  
@@ -1293,7 +1293,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Coleopteran resistant"
       },
       {  
@@ -1311,7 +1311,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Fruit polygalacturonase level decreased"
       },
       {  
@@ -1329,7 +1329,7 @@
          "Status":"Withdrawn",
          "CBI":"CBI",
          "Genotypes":"",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Bromoxynil tolerant"
       },
       {  
@@ -1347,7 +1347,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Male sterile"
       },
       {  
@@ -1365,7 +1365,7 @@
          "Status":"Withdrawn",
          "CBI":"CBI",
          "Genotypes":"",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Fruit ripening delayed"
       },
       {  
@@ -1383,7 +1383,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Fruit ripening altered"
       },
       {  
@@ -1401,7 +1401,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"European Corn Borer resistant"
       },
       {  
@@ -1419,7 +1419,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Colorado potato beetle resistant / VR-PLRV resistant"
       },
       {  
@@ -1437,7 +1437,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Arab. thaliana-Acetolactate synthase / Nopaline synthase(SM) / NptII(SM)",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Tolerant to soil residues of sulfonylurea"
       },
       {  
@@ -1455,7 +1455,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Bacillus amyloliquefaciens-Barnase / Strep. hygroscopicus-Phosphinothricin acetyl transferase",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Male sterile / HT-Phosphinothricin tolerant"
       },
       {  
@@ -1473,7 +1473,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Strep. hygroscopicus-Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant"
       },
       {  
@@ -1491,7 +1491,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Bacillus amyloliquefaciens-Barnase / Bacillus amyloliquefaciens-Barstar / Strep. hygroscopicus-Phosphinothricin acetyl transferase",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Male sterile / HT-Phosphinothricin tolerant"
       },
       {  
@@ -1509,7 +1509,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"PVY-Coat protein / Btt-CryIIIA / NptII(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Colorado potato beetle resistant / VR-PVY resistant"
       },
       {  
@@ -1527,7 +1527,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Agrobacterium-EPSPS / Achromobacter-Glyphosate oxidoreductase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -1545,7 +1545,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"B-glucuronidase(SM) / Agrobacterium-EPSPS",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -1563,7 +1563,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Btt-CryIIIA / NptII(SM) / PLRV-OFR 1 and 2",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Colorado potato beetle resistant / VR-PLRV resistant"
       },
       {  
@@ -1581,7 +1581,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Strep. viridochromogenes-Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant"
       },
       {  
@@ -1599,7 +1599,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Strep. viridochromogenes-Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant"
       },
       {  
@@ -1617,7 +1617,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"E. coli-DNA adenine methylase / Strep. viridochromogenes-Phosphinothricin acetyl transferase",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Male sterile / HT-Phosphinothricin tolerant"
       },
       {  
@@ -1635,7 +1635,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Bt tolworthi-Cry9C / Strep. hygroscopicus-Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant / IR-Lepidopteran resistant"
       },
       {  
@@ -1653,7 +1653,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Strep. viridochromogenes-Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant"
       },
       {  
@@ -1671,7 +1671,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Bt kurstaki-CryIA(c) / NptII(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Lepidopteran resistant"
       },
       {  
@@ -1689,7 +1689,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Strep. viridochromogenes-Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant"
       },
       {  
@@ -1707,7 +1707,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Colorado potato beetle resistant / VR-PVY resistant"
       },
       {  
@@ -1725,7 +1725,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Corn-EPSPS",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -1743,7 +1743,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Bacillus amyloliquefaciens-Barnase / NptII(SM) / Phosphinothricin acetyl transferase(SM)",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Male sterile"
       },
       {  
@@ -1761,7 +1761,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -1779,7 +1779,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant"
       },
       {  
@@ -1797,7 +1797,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Bt kurstaki-CryIA(b) / Agrobacterium-EPSPS / Achromobacter-Glyphosate oxidoreductase / NptII(SM)",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant / IR-European Corn Borer resistant"
       },
       {  
@@ -1815,7 +1815,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"B-glucuronidase(SM) / Soybean-Delta-12 desaturase",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Oil profile altered"
       },
       {  
@@ -1833,7 +1833,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Lepidopteran resistant"
       },
       {  
@@ -1851,7 +1851,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Bt kurstaki-CryIA(c) / Klebsiella pneumoniae-Nitrilase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Bromoxynil tolerant / IR-Lepidopteran resistant"
       },
       {  
@@ -1869,7 +1869,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Bt kurstaki-CryIA(c) / Phosphinothricin acetyl transferase(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"European Corn Borer resistant"
       },
       {  
@@ -1887,7 +1887,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant"
       },
       {  
@@ -1905,7 +1905,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Oil profile altered"
       },
       {  
@@ -1923,7 +1923,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant / IR-European Corn Borer resistant"
       },
       {  
@@ -1941,7 +1941,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"NptII(SM) / Tomato-Polygalacturonase antisense",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Fruit ripening altered"
       },
       {  
@@ -1959,7 +1959,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"European Corn Borer resistant"
       },
       {  
@@ -1977,7 +1977,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"PRSV-Coat protein / NptII(SM)",
-         "Phenotype":"VR",
+         "Phenotype":"Virus Resistance",
          "Phenotype Description":"PRSV resistant"
       },
       {  
@@ -1995,7 +1995,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"B-glucuronidase(SM) / Strep. hygroscopicus-Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant"
       },
       {  
@@ -2013,7 +2013,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"CMV-Coat protein / WMV2-Coat protein / ZYMV-Coat protein / NptII(SM)",
-         "Phenotype":"VR",
+         "Phenotype":"Virus Resistance",
          "Phenotype Description":"CMV resistant / VR-WMV2 resistant / VR-ZYMV resistant"
       },
       {  
@@ -2031,7 +2031,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Btt-CryIIIA / NptII(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Colorado potato beetle resistant"
       },
       {  
@@ -2049,7 +2049,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"NptII(SM) / Bacteriophage T3-S-adenosylmethionine transferase",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Fruit ripening altered"
       },
       {  
@@ -2067,7 +2067,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Bt kurstaki-CryIA(b) / EPSPS(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"European Corn Borer resistant"
       },
       {  
@@ -2085,7 +2085,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Bacillus amyloliqufaciens-Barnase / Phosphinothricin acetyl transferase(SM)",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Male sterile"
       },
       {  
@@ -2103,7 +2103,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"VR",
+         "Phenotype":"Virus Resistance",
          "Phenotype Description":"PRSV resistant"
       },
       {  
@@ -2121,7 +2121,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Tobacco-Acetolactate synthase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Sulfonylurea tolerant"
       },
       {  
@@ -2139,7 +2139,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Bt kurstaki-CryIA(b) / Phosphinothricin acetyl transferase(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"European Corn Borer resistant"
       },
       {  
@@ -2157,7 +2157,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant"
       },
       {  
@@ -2175,7 +2175,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Strep. hygroscopicus-Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant"
       },
       {  
@@ -2193,7 +2193,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Colorado potato beetle resistant"
       },
       {  
@@ -2211,7 +2211,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Pseudomonas chlororaphis-ACC deaminase / NptII(SM)",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Fruit ripening altered"
       },
       {  
@@ -2229,7 +2229,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Bt kurstaki-CryIA(b) / EPSPS(SM) / Glyphosate oxidoreductase(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Lepidopteran resistant"
       },
       {  
@@ -2247,7 +2247,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"NptII(SM) / Tomato-Polygalacturonase antisense",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Fruit ripening altered"
       },
       {  
@@ -2265,7 +2265,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Agro. tumefaciens-EPSPS / NptII(SM)",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -2283,7 +2283,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Strep. viridochromogenes-Phosphinothricin acetyl transferase",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant"
       },
       {  
@@ -2301,7 +2301,7 @@
          "Status":"Approve",
          "CBI":"CBI",
          "Genotypes":"Btk-CryIA(c) / NptII(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Lepidopteran resistant"
       },
       {  
@@ -2319,7 +2319,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"NptII(SM) / Tomato-Polygalacturonase / Tomato-Polygalacturonase antisense",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Fruit polygalacturonase level decreased"
       },
       {  
@@ -2337,7 +2337,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Btk-CryIA(b) / Phosphinothricin acetyl transferase(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Lepidopteran resistant"
       },
       {  
@@ -2355,7 +2355,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"NptII(SM) / Tomato-Polygalacturonase antisense",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Fruit ripening altered"
       },
       {  
@@ -2373,7 +2373,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Btt-CryIIIA / NptII(SM)",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Coleopteran resistant"
       },
       {  
@@ -2391,7 +2391,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Tomato-ACC synthase / NptII(SM)",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Fruit ripening altered"
       },
       {  
@@ -2409,7 +2409,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"WMV2-Coat protein / ZYMV-Coat protein",
-         "Phenotype":"VR",
+         "Phenotype":"Virus Resistance",
          "Phenotype Description":"WMV2 resistant / VR-ZYMV resistant"
       },
       {  
@@ -2427,7 +2427,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"NptII(SM) / Tomato-Polygalacturonase antisense",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Fruit ripening altered"
       },
       {  
@@ -2445,7 +2445,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"California bay-ACP thioesterase / NptII(SM)",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Oil profile altered"
       },
       {  
@@ -2463,7 +2463,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"NptII(SM) / Tomato-Polygalacturonase antisense",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Fruit ripening altered"
       },
       {  
@@ -2481,7 +2481,7 @@
          "Status":"Incomplete",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Fruit polygalacturonase level decreased"
       },
       {  
@@ -2499,7 +2499,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Agrobaterium sp.-EPSPS",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -2517,7 +2517,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"Klebsiella pneumoniae-Nitrilase / NptII(SM)",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Bromoxynil tolerant"
       },
       {  
@@ -2535,7 +2535,7 @@
          "Status":"Approve",
          "CBI":"noCBI",
          "Genotypes":"NptII(SM) / tomato-Polygalacturonase antisense",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Fruit ripening altered"
       },
       {  
@@ -2553,7 +2553,7 @@
          "Status":"Pending",
          "CBI":"noCBI",
          "Genotypes":"",
-         "Phenotype":"PQ",
+         "Phenotype":"Product Quality",
          "Phenotype Description":"Increased Ear Biomass"
       },
       {  
@@ -2571,7 +2571,7 @@
          "Status":"Pending",
          "CBI":"noCBI",
          "Genotypes":"Asparagine Synthetase-1 (Asn1) / Polyphenol Oxidase-5 (Ppo5)  / Late Blight Resistance Gene (Rpi-vnt1) / Vacuolar Invertase (VInv)",
-         "Phenotype":"FR",
+         "Phenotype":"Fungal Resistance",
          "Phenotype Description":"Late Blight Resistant / PQ-Low Acrylamide Potential / PQ-Reduced Black Spot Bruise / PQ-Lowered Reducing Sugars"
       },
       {  
@@ -2589,7 +2589,7 @@
          "Status":"Pending",
          "CBI":"",
          "Genotypes":"",
-         "Phenotype":"IR",
+         "Phenotype":"Insect Resistance",
          "Phenotype Description":"Rootworm-Resistant / HT-Glyphosate-Tolerant"
       },
       {  
@@ -2607,7 +2607,7 @@
          "Status":"Pending",
          "CBI":"",
          "Genotypes":"",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"2 4-D and Glufosinate-Tolerant"
       },
       {  
@@ -2625,7 +2625,7 @@
          "Status":"EIS Pending",
          "CBI":"noCBI",
          "Genotypes":"CBF2 / Barnase / NPTII (SM)",
-         "Phenotype":"AP",
+         "Phenotype":"Agronomic Properties",
          "Phenotype Description":"Freeze-tolerant/AP-Fertility Altered"
       },
       {  
@@ -2643,7 +2643,7 @@
          "Status":"EIS Pending",
          "CBI":"CBI",
          "Genotypes":"Agrobacterium-EPSPS(SM)",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Glyphosate tolerant"
       },
       {  
@@ -2661,7 +2661,7 @@
          "Status":"Withdrawn",
          "CBI":"noCBI",
          "Genotypes":"Strep. viridochromogenes-Phosphinothricin acetyl transferase / Btk-vip3A(a)",
-         "Phenotype":"HT",
+         "Phenotype":"Herbicide Tolerance",
          "Phenotype Description":"Phosphinothricin tolerant / IR-Lepidopteran resistant"
       }
    ]

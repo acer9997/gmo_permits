@@ -137,7 +137,7 @@
             // Build treemap graphic
             function build_graphic(tm_data){
                 // reorganize json data to work with graphic
-                gmo_data.name = 'Articles';
+                gmo_data.name = 'Crop';
                 gmo_data.children = [];
 
                 _.each(tm_data, function (value, key){
@@ -174,7 +174,7 @@
 
                 gmo_data = gmo_data.children;
                 gmo_data = gmo_data[0];
-                gmo_data.name = "Articles";
+                gmo_data.name = "Crop";
 
                 console.log(JSON.stringify(gmo_data));
 
