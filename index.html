@@ -57,7 +57,7 @@
                     <th>Permit Number</th>
                     <th>Docket Number</th>
                     <th>Institution</th>
-                    <th>Article</th>
+                    <th>Crop</th>
                     <th>Received Date</th>
                     <th>Completed Date</th>
                     <th>FR Start Date</th>
@@ -77,7 +77,7 @@
                     <th>Permit Number</th>
                     <th>Docket Number</th>
                     <th>Institution</th>
-                    <th>Article</th>
+                    <th>Crop</th>
                     <th>Received Date</th>
                     <th>Completed Date</th>
                     <th>FR Start Date</th>
@@ -111,7 +111,7 @@
                         { "mData": "Permit Number", sDefaultContent: "" },
                         { "mData": "Docket Number", sDefaultContent: "" },
                         { "mData": "Institution", sDefaultContent: "" },
-                        { "mData": "Article", sDefaultContent: "" },
+                        { "mData": "Crop", sDefaultContent: "" },
                         { "mData": "Received Date", sDefaultContent: "" },
                         { "mData": "Completed Date", sDefaultContent: "" },
                         { "mData": "FR Start Date", sDefaultContent: "" },
@@ -143,10 +143,10 @@
                 _.each(tm_data, function (value, key){
                     var i = Object.keys(tm_data).indexOf(key);
                     gmo_data.children.push( {'name': key, 'children': []} );
-                    article_types = _.groupBy(value, 'Article');
+                    crop_types = _.groupBy(value, 'Crop');
 
-                    _.each(article_types, function(val, kee){
-                        var ii = Object.keys(article_types).indexOf(kee);
+                    _.each(crop_types, function(val, kee){
+                        var ii = Object.keys(crop_types).indexOf(kee);
                         gmo_data.children[i].children.push( {'name': kee} );
                         var tt = [];
 
