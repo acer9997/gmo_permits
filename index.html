@@ -49,7 +49,15 @@
     </style>
 </head>
 <body>
-    <div class="treemap_wrapper"></div>
+    <div></div>
+    <div class="treemap_wrapper">
+        <form>
+            <select class="viz_selector">
+                <option value="crop">Crop</option>
+                <option value="institution">Institution</option>
+            </select>
+        </form>
+    </div>
     <div class="dataTables_wrapper">
         <table id="biodata_table" class="display responsive no-wrap" cellspacing="0" width="100%" style="width: 100%;">
             <thead>
@@ -101,6 +109,18 @@
 
         $(document).ready(function() {
 
+            // set default viz type
+            viz_type = $( ".viz_selector option:selected" ).text();
+
+            $( ".viz_selector" ).change(function() {
+                console.log('changed');
+                $('.treemap_wrapper div').remove();
+                viz_type = $( ".viz_selector option:selected" ).text();
+                build_graphic(viz_type, glbl_data);
+            });
+
+
+
             // Build the DataTables table
             function build_table(dt_data){
                 $('#biodata_table').dataTable( {
@@ -135,48 +155,89 @@
             }
 
             // Build treemap graphic
-            function build_graphic(tm_data){
+            function build_graphic(viz_type, tm_data){
                 // reorganize json data to work with graphic
                 gmo_data.name = 'Crop';
                 gmo_data.children = [];
 
-                _.each(tm_data, function (value, key){
-                    var i = Object.keys(tm_data).indexOf(key);
-                    gmo_data.children.push( {'name': key, 'children': []} );
-                    crop_types = _.groupBy(value, 'Crop');
+                if (viz_type === 'Crop') {
 
-                    _.each(crop_types, function(val, kee){
-                        var ii = Object.keys(crop_types).indexOf(kee);
-                        gmo_data.children[i].children.push( {'name': kee} );
-                        var tt = [];
+                    _.each(tm_data, function (value, key) {
+                        var i = Object.keys(tm_data).indexOf(key);
+                        gmo_data.children.push({'name': key, 'children': []});
+                        crop_types = _.groupBy(value, 'Crop');
 
-                        _.each(val, function(x, y){
-                            tt.push(x.Institution)
-                        });
-                        tt = _.uniq(tt);
-                        flower = [];
+                        _.each(crop_types, function (val, kee) {
+                            var ii = Object.keys(crop_types).indexOf(kee);
+                            gmo_data.children[i].children.push({'name': kee});
+                            var tt = [];
 
-                        _.each(tt, function(y){
-                            ttt = [];
+                            _.each(val, function (x, y) {
+                                tt.push(x.Institution)
+                            });
+                            tt = _.uniq(tt);
+                            flower = [];
 
-                            _.each(val, function(yy, xx){
-                                if (y == yy.Institution){
-                                    ttt.push(tt)
-                                }
+                            _.each(tt, function (y) {
+                                ttt = [];
+
+                                _.each(val, function (yy, xx) {
+                                    if (y == yy.Institution) {
+                                        ttt.push(tt)
+                                    }
+                                });
+
+                                flower.push({'name': y, 'size': ttt.length})
                             });
 
-                            flower.push({'name': y, 'size': ttt.length})
-                        });
+                            gmo_data.children[i].children[ii].children = flower;
+                        })
+                    });
 
-                        gmo_data.children[i].children[ii].children = flower;
-                    })
-                });
+                    gmo_data = gmo_data.children;
+                    gmo_data = gmo_data[0];
+                    gmo_data.name = "Crop";
+                }
 
-                gmo_data = gmo_data.children;
-                gmo_data = gmo_data[0];
-                gmo_data.name = "Crop";
+                else {
+                    _.each(tm_data, function (value, key){
+                        var i = Object.keys(tm_data).indexOf(key);
+                        gmo_data.children.push( {'name': key, 'children': []} );
+                        crop_types = _.groupBy(value, 'Institution');
 
-                console.log(JSON.stringify(gmo_data));
+                        _.each(crop_types, function(val, kee){
+                            var ii = Object.keys(crop_types).indexOf(kee);
+                            gmo_data.children[i].children.push( {'name': kee} );
+                            var tt = [];
+
+                            _.each(val, function(x, y){
+                                tt.push(x.Crop)
+                            });
+                            tt = _.uniq(tt);
+                            flower = [];
+
+                            _.each(tt, function(y){
+                                ttt = [];
+
+                                _.each(val, function(yy, xx){
+                                    if (y == yy.Crop){
+                                        ttt.push(tt)
+                                    }
+                                });
+
+                                flower.push({'name': y, 'size': ttt.length})
+                            });
+
+                            gmo_data.children[i].children[ii].children = flower;
+                        })
+                    });
+
+                    gmo_data = gmo_data.children;
+                    gmo_data = gmo_data[0];
+                    gmo_data.name = "Institution";
+                }
+
+//                console.log(JSON.stringify(gmo_data));
 
                 // create the graphic with d3
                 var w = 1120,
@@ -253,10 +314,10 @@
                 glbl_data = data;
 
                 // build data tables
-                build_table(data);
+                build_table(glbl_data);
 
                 // build tree map graphic
-                build_graphic(data);
+                build_graphic(viz_type, glbl_data);
             });
         } );
     </script>
