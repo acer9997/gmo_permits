@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>GMO Permits</title>
+    <!-- Java Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js" charset="utf-8"></script>
+    <script src="http://datatables.net/release-datatables/extensions/ColVis/js/dataTables.colVis.js"></script>
+    <script src="https://www.datatables.net/release-datatables/extensions/TableTools/js/dataTables.tableTools.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <!-- Style Sheets -->
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.css" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="http://datatables.net/release-datatables/extensions/ColVis/css/dataTables.colVis.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/responsive/1.0.6/css/dataTables.responsive.css">
+    <link rel="stylesheet" type="text/css" href="https://www.datatables.net/release-datatables/extensions/TableTools/css/dataTables.tableTools.css">
+    <style>
+        body {font: 90%/1.45em "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;}
+        .dataTables_wrapper {
+            position: relative;
+            clear: both;
+            zoom: 1;
+            font-size: 95%;
+            width: 1120px;
+            margin: 20px auto;
+        }
+        .chart {
+            display: block;
+            margin: auto;
+            margin-top: 60px;
+            font-size: 11px;
+        }
+
+        rect {
+            stroke: #eee;
+            fill: #aaa;
+            fill-opacity: .8;
+        }
+
+        rect.parent {
+            cursor: pointer;
+            fill: steelblue;
+        }
+
+        text {
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="treemap_wrapper"></div>
+    <div class="dataTables_wrapper">
+        <table id="biodata_table" class="display responsive no-wrap" cellspacing="0" width="100%" style="width: 100%;">
+            <thead>
+                <tr>
+                    <th>Permit Number</th>
+                    <th>Docket Number</th>
+                    <th>Institution</th>
+                    <th>Article</th>
+                    <th>Received Date</th>
+                    <th>Completed Date</th>
+                    <th>FR Start Date</th>
+                    <th>FR Stop Date</th>
+                    <th>Clock Stop Date</th>
+                    <th>Clock Start Date</th>
+                    <th style="width: 50px;">Issued</th>
+                    <th>Status</th>
+                    <th>CBI</th>
+                    <th>Genotypes</th>
+                    <th>Phenotype</th>
+                    <th>Phenotype Description</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th>Permit Number</th>
+                    <th>Docket Number</th>
+                    <th>Institution</th>
+                    <th>Article</th>
+                    <th>Received Date</th>
+                    <th>Completed Date</th>
+                    <th>FR Start Date</th>
+                    <th>FR Stop Date</th>
+                    <th>Clock Stop Date</th>
+                    <th>Clock Start Date</th>
+                    <th>Issued</th>
+                    <th>Status</th>
+                    <th>CBI</th>
+                    <th>Genotypes</th>
+                    <th>Phenotype</th>
+                    <th>Phenotype Description</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script>
+        // hold this value for modeling - remove after work completed
+        var glbl_data;
+        var gmo_data = {};
+
+        $(document).ready(function() {
+
+            // Build the DataTables table
+            function build_table(dt_data){
+                $('#biodata_table').dataTable( {
+                    "dom": 'TC<"clear">lfrtip',
+                    responsive: true,
+                    "data": dt_data.data,
+                    "aoColumns": [
+                        { "mData": "Permit Number", sDefaultContent: "" },
+                        { "mData": "Docket Number", sDefaultContent: "" },
+                        { "mData": "Institution", sDefaultContent: "" },
+                        { "mData": "Article", sDefaultContent: "" },
+                        { "mData": "Received Date", sDefaultContent: "" },
+                        { "mData": "Completed Date", sDefaultContent: "" },
+                        { "mData": "FR Start Date", sDefaultContent: "" },
+                        { "mData": "FR Stop Date", sDefaultContent: "" },
+                        { "mData": "Clock Stop Date", sDefaultContent: "" },
+                        { "mData": "Clock Start Date", sDefaultContent: "" },
+                        { "mData": "Issued Date", sDefaultContent: "" },
+                        { "mData": "Status", sDefaultContent: "" },
+                        { "mData": "CBI", sDefaultContent: "" },
+                        { "mData": "Genotypes", sDefaultContent: "" },
+                        { "mData": "Phenotype", sDefaultContent: "" },
+                        { "mData": "Phenotype Description", sDefaultContent: "" }
+                    ],
+                    "aoColumnDefs": [{ "bVisible": false, "aTargets": [ 0, 1, 4, 5, 6, 7, 8, 9 , 12, 13] }],
+                    "aLengthMenu": [[25, 50, 75, -1], [25, 50, 75, "All"]],
+                    "iDisplayLength": 25,
+                    "tableTools": {
+                        "sSwfPath": "copy_csv_xls_pdf.swf"
+                    }
+                } )
+            }
+
+            // Build treemap graphic
+            function build_graphic(tm_data){
+                // reorganize json data to work with graphic
+                gmo_data.name = 'articles';
+                gmo_data.children = [];
+
+                _.each(tm_data, function (value, key){
+                    var i = Object.keys(tm_data).indexOf(key);
+                    gmo_data.children.push( {'name': key, 'children': []} );
+                    phenotypes = _.groupBy(value, 'Phenotype');
+
+                    _.each(phenotypes, function(val, kee){
+                        var ii = Object.keys(phenotypes).indexOf(kee);
+                        gmo_data.children[i].children.push( {'name': kee} );
+                        var tt = [];
+
+                        _.each(val, function(x, y){
+                            tt.push(x.Institution)
+                        });
+                        tt = _.uniq(tt);
+                        flower = [];
+
+                        _.each(tt, function(y){
+                            ttt = [];
+
+                            _.each(val, function(yy, xx){
+                                if (y == yy.Institution){
+                                    ttt.push(tt)
+                                }
+                            });
+
+                            flower.push({'name': y, 'size': ttt.length})
+                        });
+
+                        gmo_data.children[i].children[ii].children = flower;
+                    })
+                });
+
+                gmo_data = gmo_data.children;
+                gmo_data = gmo_data[0];
+                gmo_data.name = "Articles";
+
+//                console.log(JSON.stringify(gmo_data));
+
+                // create the graphic with d3
+                var w = 1120,
+                        h = 600,
+                        x = d3.scale.linear().range([0, w]),
+                        y = d3.scale.linear().range([0, h]);
+
+                var vis = d3.select(".treemap_wrapper").append("div")
+                        .attr("class", "chart")
+                        .style("width", w + "px")
+                        .style("height", h + "px")
+                        .append("svg:svg")
+                        .attr("width", w)
+                        .attr("height", h);
+
+                var partition = d3.layout.partition()
+                        .value(function(d) { return d.size; });
+
+                var g = vis.selectAll("g")
+                        .data(partition.nodes(gmo_data))
+                        .enter().append("svg:g")
+                        .attr("transform", function(d) { return "translate(" + x(d.y) + "," + y(d.x) + ")"; })
+                        .on("click", click);
+
+                var kx = w / gmo_data.dx,
+                        ky = h / 1;
+
+                g.append("svg:rect")
+                        .attr("width", gmo_data.dy * kx)
+                        .attr("height", function(d) { return d.dx * ky; })
+                        .attr("class", function(d) { return d.children ? "parent" : "child"; });
+
+                g.append("svg:text")
+                        .attr("transform", transform)
+                        .attr("dy", ".35em")
+                        .style("opacity", function(d) { return d.dx * ky > 12 ? 1 : 0; })
+                        .text(function(d) { return d.name; });
+
+                d3.select(window)
+                        .on("click", function() { click(gmo_data); });
+
+                function click(d) {
+                    if (!d.children) return;
+
+                    kx = (d.y ? w - 40 : w) / (1 - d.y);
+                    ky = h / d.dx;
+                    x.domain([d.y, 1]).range([d.y ? 40 : 0, w]);
+                    y.domain([d.x, d.x + d.dx]);
+
+                    var t = g.transition()
+                            .duration(d3.event.altKey ? 7500 : 750)
+                            .attr("transform", function(d) { return "translate(" + x(d.y) + "," + y(d.x) + ")"; });
+
+                    t.select("rect")
+                            .attr("width", d.dy * kx)
+                            .attr("height", function(d) { return d.dx * ky; });
+
+                    t.select("text")
+                            .attr("transform", transform)
+                            .style("opacity", function(d) { return d.dx * ky > 12 ? 1 : 0; });
+
+                    d3.event.stopPropagation();
+                }
+
+                function transform(d) {
+                    return "translate(8," + d.dx * ky / 2 + ")";
+                }
+            }
+
+            // request data from server
+            $.getJSON('biotech_petitions.json', function(data) {
+
+                // hold this value for modeling - remove after work completed
+                glbl_data = data;
+
+                // build data tables
+                build_table(data);
+
+                // build tree map graphic
+                build_graphic(data);
+            });
+        } );
+    </script>
+</body>
+</html>
